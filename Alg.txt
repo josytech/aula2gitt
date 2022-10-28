@@ -1,0 +1,33 @@
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro vetor[5]
+
+    escreva ("---------------------------------------------------------------------------------------------------------\n")   
+    escreva ("Criar um algoritmo que entre com cinco números e imprimir o quadrado de cada número (usar estrutura para).\n")
+    escreva ("----------------------------------------------------------------------------------------------------------\n \n")
+
+		para (inteiro posicao = 0; posicao < 5; posicao++)
+		{
+			leia (vetor[posicao])
+		}
+
+    escreva ("\n")  
+
+		escreva ("Vetor na ordem original:\n")
+		
+		para(inteiro posicao = 0; posicao < 5; posicao++)
+		{
+			escreva (vetor[posicao], " ")
+		}
+		
+		escreva ("\n\nQuadrado dos numeros:\n")
+		
+		para(inteiro posicao = 0; posicao < 5; posicao++)
+		{
+			escreva ((vetor[posicao]*vetor[posicao]), " ")
+		}
+    escreva ("\n")  
+  }
+}
